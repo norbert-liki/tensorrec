@@ -17,7 +17,7 @@ setup(
   install_requires=[
       "numpy>=1.14.1",
       "scipy>=0.19.1",
-      "six==1.11.0",
-      "tensorflow>=1.7.0",
+      "six>=1.11.0",
+      "tensorflow-cpu<=2.0.0",
   ],
 )
